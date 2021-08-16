@@ -4,7 +4,8 @@ import jobReducer from "../reducers/jobsListed";
 import thunk from "redux-thunk";
 
 import { persistStore, persistReducer } from "redux-persist";
-import storage from "redux-persist/lib/storage";
+// import storage from "redux-persist/lib/storage";
+import storage from "redux-persist/lib/storage/session";
 
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose
 
